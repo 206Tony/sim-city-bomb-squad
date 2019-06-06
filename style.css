@@ -1,3 +1,50 @@
 body{
-  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
+.exploded {
+  background-image: url('img/explosion.jpg');
+}
+.unexploded {
+  background-image: url('img/simcity.jpg');
+}
+main {
+  background-color: #000;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 125px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 0.5em;
+}
+#timertext {
+  font-size: 2.65em;
+  margin: 10px auto;
+}
+main div:nth-child(3) {
+  padding: .5em;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+button {
+  margin: 5px;
+}
+img {
+  padding: 2px;
+}
+#start {
+  background-color: green;
+  border-radius: 3px;
+  border-color: royalblue;
+}
+#reset {
+  background-color: red;
+  border-radius: 3px;
+  border-color: royalblue;
+}
+
